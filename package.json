@@ -1,0 +1,82 @@
+{
+  "name": "eslint-config-solid-soda",
+  "version": "1.0.0",
+  "description": "ESLint config for Solid Soda team",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/uncleseneca/eslint-config-soda"
+  },
+  "scripts": {
+    "prelint": "editorconfig-tools check * rules/* test/*",
+    "lint": "eslint --report-unused-disable-directives .",
+    "pretests-only": "node ./test/requires",
+    "tests-only": "babel-tape-runner ./test/test-*.js",
+    "pretest": "npm run --silent lint",
+    "test": "npm run --silent tests-only",
+    "pretravis": ":",
+    "travis": "npm run --silent test",
+    "posttravis": ":"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "config",
+    "soda",
+    "solid-soda",
+    "javascript",
+    "styleguide",
+    "es2015",
+    "es2016",
+    "es2017",
+    "es2018"
+  ],
+  "author": "Jake Teton-Landis (https://twitter.com/@jitl)",
+  "contributors": [
+    {
+      "name": "Jake Teton-Landis",
+      "url": "https://twitter.com/jitl"
+    },
+    {
+      "name": "Jordan Harband",
+      "email": "ljharb@gmail.com",
+      "url": "http://ljharb.codes"
+    },
+    {
+      "name": "Harrison Shoff",
+      "url": "https://twitter.com/hshoff"
+    },
+    {
+      "name": "Vladimir Golotin",
+      "url": "https://github.com/Uncleseneca"
+    }
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/uncleseneca/eslint-config-soda/issues"
+  },
+  "homepage": "https://github.com/uncleseneca/eslint-config-soda",
+  "devDependencies": {
+    "babel-preset-airbnb": "^2.5.1",
+    "babel-tape-runner": "^2.0.1",
+    "editorconfig-tools": "^0.1.1",
+    "eslint": "^4.19.1 || ^5.0.1",
+    "eslint-find-rules": "^3.3.1",
+    "eslint-plugin-import": "^2.13.0",
+    "in-publish": "^2.0.0",
+    "safe-publish-latest": "^1.1.1",
+    "tape": "^4.9.1"
+  },
+  "peerDependencies": {
+    "eslint": "^4.19.1 || ^5.0.1",
+    "eslint-plugin-import": "^2.13.0"
+  },
+  "engines": {
+    "node": ">= 4"
+  },
+  "dependencies": {
+    "eslint-restricted-globals": "^0.1.1",
+    "object.assign": "^4.1.0",
+    "object.entries": "^1.0.4"
+  }
+}
