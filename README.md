@@ -52,7 +52,7 @@ The cli will produce and run a command like:
 npm install --save-dev eslint-config-solid-soda eslint@^#.#.# eslint-plugin-import@^#.#.#
 ```
 
-2.  Add `"extends": "soda"` to your .eslintrc.
+2.  Add `"extends": "solid-soda"` to your .eslintrc.
 
 ### eslint-config-solid-soda/legacy
 
@@ -79,7 +79,7 @@ Which produces and runs a command like:
 npm install --save-dev eslint-config-solid-soda eslint@^3.0.1 eslint-plugin-import@^1.10.3
 ```
 
-2.  Add `"extends": "soda/legacy"` to your .eslintrc
+2.  Add `"extends": "solid-soda/legacy"` to your .eslintrc
 
 ### eslint-config-solid-soda/whitespace
 
