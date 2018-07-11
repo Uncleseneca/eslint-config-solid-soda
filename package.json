@@ -1,22 +1,11 @@
 {
   "name": "eslint-config-solid-soda",
-  "version": "1.0.0",
+  "version": "2.0.1",
   "description": "ESLint config for Solid Soda team",
   "main": "index.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/uncleseneca/eslint-config-soda"
-  },
-  "scripts": {
-    "prelint": "editorconfig-tools check * rules/* test/*",
-    "lint": "eslint --report-unused-disable-directives .",
-    "pretests-only": "node ./test/requires",
-    "tests-only": "babel-tape-runner ./test/test-*.js",
-    "pretest": "npm run --silent lint",
-    "test": "npm run --silent tests-only",
-    "pretravis": ":",
-    "travis": "npm run --silent test",
-    "posttravis": ":"
   },
   "keywords": [
     "eslint",
@@ -56,23 +45,12 @@
     "url": "https://github.com/uncleseneca/eslint-config-soda/issues"
   },
   "homepage": "https://github.com/uncleseneca/eslint-config-soda",
-  "devDependencies": {
-    "babel-preset-airbnb": "^2.5.1",
-    "babel-tape-runner": "^2.0.1",
-    "editorconfig-tools": "^0.1.1",
-    "eslint": "^4.19.1 || ^5.0.1",
-    "eslint-find-rules": "^3.3.1",
-    "eslint-plugin-import": "^2.13.0",
-    "in-publish": "^2.0.0",
-    "safe-publish-latest": "^1.1.1",
-    "tape": "^4.9.1"
-  },
   "peerDependencies": {
     "eslint": "^4.19.1 || ^5.0.1",
     "eslint-plugin-import": "^2.13.0"
   },
   "engines": {
-    "node": ">= 4"
+    "node": ">= 6"
   },
   "dependencies": {
     "eslint-restricted-globals": "^0.1.1",
