@@ -5,7 +5,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/uncleseneca/eslint-config-soda.git"
+    "url": "git+https://github.com/solid-soda/eslint-config.git"
   },
   "keywords": [
     "eslint",
@@ -29,9 +29,9 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/uncleseneca/eslint-config-soda/issues"
+    "url": "https://github.com/solid-soda/eslint-config/issues"
   },
-  "homepage": "https://github.com/uncleseneca/eslint-config-soda",
+  "homepage": "https://github.com/solid-soda/eslint-config",
   "peerDependencies": {
     "eslint": "^4.19.1 || ^5.0.1"
   },
