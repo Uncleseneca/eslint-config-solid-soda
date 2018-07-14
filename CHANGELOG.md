@@ -1,3 +1,7 @@
+# 2.1.1 / 2018-07-14
+
+- Removed ES modules import rules and updated README
+
 # 2.0.1 / 2018-07-11
 
 - Removed legacy mode and tests
