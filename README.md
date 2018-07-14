@@ -1,4 +1,4 @@
-# eslint-config-solid-soda
+# @solid-soda/eslint-config
 
 This package provides Solid Soda's base JS .eslintrc as an extensible shared config. It's based on Airbnb's [eslint-config-airbnb-base](https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb-base) config.
 

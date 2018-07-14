@@ -1,5 +1,5 @@
 {
-  "name": "eslint-config-solid-soda",
+  "name": "@solid-soda/eslint-config",
   "version": "2.0.1",
   "description": "ESLint config for Solid Soda team",
   "main": "index.js",
@@ -46,8 +46,7 @@
   },
   "homepage": "https://github.com/uncleseneca/eslint-config-soda",
   "peerDependencies": {
-    "eslint": "^4.19.1 || ^5.0.1",
-    "eslint-plugin-import": "^2.13.0"
+    "eslint": "^4.19.1 || ^5.0.1"
   },
   "engines": {
     "node": ">= 6"
