@@ -5,7 +5,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/uncleseneca/eslint-config-soda"
+    "url": "git+https://github.com/uncleseneca/eslint-config-soda.git"
   },
   "keywords": [
     "eslint",
@@ -22,23 +22,10 @@
   ],
   "author": "Jake Teton-Landis (https://twitter.com/@jitl)",
   "contributors": [
-    {
-      "name": "Jake Teton-Landis",
-      "url": "https://twitter.com/jitl"
-    },
-    {
-      "name": "Jordan Harband",
-      "email": "ljharb@gmail.com",
-      "url": "http://ljharb.codes"
-    },
-    {
-      "name": "Harrison Shoff",
-      "url": "https://twitter.com/hshoff"
-    },
-    {
-      "name": "Vladimir Golotin",
-      "url": "https://github.com/Uncleseneca"
-    }
+    "Jake Teton-Landis (https://twitter.com/jitl)",
+    "Jordan Harband <ljharb@gmail.com> (http://ljharb.codes)",
+    "Harrison Shoff (https://twitter.com/hshoff)",
+    "Vladimir Golotin (https://github.com/Uncleseneca)"
   ],
   "license": "MIT",
   "bugs": {
