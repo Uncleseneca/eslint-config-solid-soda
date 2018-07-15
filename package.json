@@ -1,6 +1,6 @@
 {
   "name": "@solid-soda/eslint-config",
-  "version": "2.1.3",
+  "version": "2.1.4",
   "description": "ESLint config for Solid Soda team",
   "main": "index.js",
   "repository": {

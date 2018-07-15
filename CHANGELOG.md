@@ -1,6 +1,6 @@
-# 2.1.2 / 2018-07-15
+# 2.1.4 / 2018-07-15
 
-- Removed .babelrc config and changed author name
+- Removed .babelrc config and changed author name, changed semi rule to never
 
 # 2.1.1 / 2018-07-14
 
