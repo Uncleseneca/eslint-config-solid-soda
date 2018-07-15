@@ -4,15 +4,15 @@ This package provides Solid Soda's base JS .eslintrc as an extensible shared con
 
 ## Installation
 
-```yarn add --dev @solid-soda/eslint-config eslint```
+`yarn add --dev @solid-soda/eslint-config eslint`
 
 or
 
-```npm install @solid-soda/eslint-config eslint --save-dev```
+`npm install @solid-soda/eslint-config eslint --save-dev`
 
 ## Usage
 
-Add `"extends": "solid-soda"` to your .eslintrc.
+Add `"extends": "@solid-soda"` to your .eslintrc.
 
 ## @solid-soda/eslint-config
 
