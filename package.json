@@ -1,6 +1,6 @@
 {
   "name": "@solid-soda/eslint-config",
-  "version": "2.1.1",
+  "version": "2.1.2",
   "description": "ESLint config for Solid Soda team",
   "main": "index.js",
   "repository": {
@@ -20,12 +20,11 @@
     "es2017",
     "es2018"
   ],
-  "author": "Jake Teton-Landis (https://twitter.com/@jitl)",
+  "author": "Vladimir Golotin (https://github.com/Uncleseneca)",
   "contributors": [
     "Jake Teton-Landis (https://twitter.com/jitl)",
     "Jordan Harband <ljharb@gmail.com> (http://ljharb.codes)",
-    "Harrison Shoff (https://twitter.com/hshoff)",
-    "Vladimir Golotin (https://github.com/Uncleseneca)"
+    "Harrison Shoff (https://twitter.com/hshoff)"
   ],
   "license": "MIT",
   "bugs": {

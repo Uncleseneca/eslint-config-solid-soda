@@ -1,3 +1,7 @@
+# 2.1.2 / 2018-07-15
+
+- Removed .babelrc config and changed author name
+
 # 2.1.1 / 2018-07-14
 
 - Removed ES modules import rules and updated README
