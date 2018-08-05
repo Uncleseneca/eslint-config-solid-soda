@@ -392,6 +392,16 @@ module.exports = {
     'no-restricted-syntax': [
       'error',
       {
+        selector: 'ForInStatement',
+        message:
+          'for..in loops iterate over the entire prototype chain, which is virtually never what you want. Use Object.{keys,values,entries}, and iterate over the resulting array.',
+      },
+      {
+        selector: 'ForOfStatement',
+        message:
+          'iterators/generators require regenerator-runtime, which is too heavyweight for this guide to allow them. Separately, loops should be avoided in favor of array iterations.',
+      },
+      {
         selector: 'LabeledStatement',
         message:
           'Labels are a form of GOTO; using them makes code confusing and hard to maintain and understand.',
@@ -448,6 +458,16 @@ module.exports = {
     // require padding inside curly braces
     'object-curly-spacing': ['error', 'always'],
 
+    // enforce line breaks between braces
+    // https://eslint.org/docs/rules/object-curly-newline
+    'object-curly-newline': [
+      'error',
+      {
+        ObjectExpression: { minProperties: 4, multiline: true, consistent: true },
+        ObjectPattern: { minProperties: 4, multiline: true, consistent: true },
+        ImportDeclaration: { minProperties: 4, multiline: true, consistent: true },
+        ExportDeclaration: { minProperties: 4, multiline: true, consistent: true },
+      },
     ],
 
     // enforce "same line" or "multiple line" on object properties.
