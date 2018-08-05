@@ -1,3 +1,11 @@
+# 2.1.6 / 2018-08-05
+
+- Fixed: no-restricted-syntax
+
+# 2.1.5 / 2018-08-05
+
+- Removed: object-curly-newline, no-restricted-syntax, class-methods-use-this
+
 # 2.1.4 / 2018-07-15
 
 - Removed .babelrc config and changed author name, changed semi rule to never
